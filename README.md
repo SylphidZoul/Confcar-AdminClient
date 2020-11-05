@@ -1,4 +1,4 @@
-# Confcar admin's Work Schedule Marker electron client.
+# Confcar admin's Work Schedule Marker electron client
 
 ## Freelance project for a SME.
 
