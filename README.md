@@ -11,6 +11,11 @@ Confcar is a small business of bed sheets.
 
 _Work in Progress_
 
+## Other links
+
+* Backend: [https://github.com/SylphidZoul/Confcar-Backend](https://github.com/SylphidZoul/Confcar-Backend)
+* AndroidClient: [https://github.com/SylphidZoul/Confcar-AndroidClient](https://github.com/SylphidZoul/Confcar-AndroidClient)
+
 ## Tools 
 
 * [react](https://es.reactjs.org/)
