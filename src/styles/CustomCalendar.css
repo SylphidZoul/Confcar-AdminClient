@@ -1,0 +1,28 @@
+.react-calendar {
+  justify-self: center;
+  background: transparent;
+  border: 1px solid var(--green);
+}
+
+button {
+  color: white;
+}
+
+.react-calendar__tile--active,
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: var(--blue);
+}
+
+.react-calendar__tile--now,
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus  {
+  background: var(--purple);
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus,
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: var(--green);
+}
