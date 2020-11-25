@@ -1,58 +1,87 @@
-import React, { useState, useEffect } from 'react'
-import { Ul, Li, Field, EmployeeLi, P } from '../styles/Table'
+import { useEffect, useReducer } from 'react'
+import { employeesReducer, initialState, actions } from '../reducers/employeesReducer'
 import Http from '../libs/http'
+import EmployeesScreen from '../components/employeesScreen'
 
 const Employees = () => {
-  const [employeeList, setEmployeeList] = useState([])
-  const [isFetching, setIsFetching] = useState(true)
+  const [state, dispatch] = useReducer(employeesReducer, initialState)
 
   const fetchEmployees = async () => {
+    dispatch({ type: actions.FETCH_DATA })
+    const query = state.showInactives ? 'employees/active=0' : 'employees'
     try {
-      const data = await Http.instance.get('employees')
-      setEmployeeList(data.body)
-      setIsFetching(false)
+      const data = await Http.instance.get(query)
+      dispatch({ type: actions.SET_EMPLOYEE_LIST, payload: data.body })
     } catch (error) {
       console.log('error fetch')
+      dispatch({ type: actions.FAILED_CONNECTION })
     }
+  }
+
+  const toggleEdit = (index = -1) => {
+    if (index === -1) {
+      dispatch({ type: actions.DISABLE_EDIT_MODE })
+      return
+    }
+    dispatch({ type: actions.ENABLE_EDIT_MODE, payload: index })
+  }
+
+  const handleSubmit = async (e, id) => {
+    e.preventDefault()
+    const update = {
+      id: id,
+      fullname: e.target[0].value,
+      dni: e.target[1].value,
+      password: e.target[2].value,
+      mobile: e.target[3].value,
+      hourly_pay: e.target[4].value
+    }
+    toggleEdit()
+    dispatch({ type: actions.FETCH_DATA })
+    try {
+      const updated = await Http.instance.put('employees', update)
+      const index = state.employeesList.findIndex(elem => (
+        elem.employee_id === updated.body.employee_id
+      ))
+      const list = [...state.employeesList]
+      list[index] = updated.body
+      dispatch({ type: actions.SET_EMPLOYEE_LIST, payload: list })
+    } catch (error) {
+      console.log(error)
+      dispatch({ type: actions.FAILED_CONNECTION })
+    }
+  }
+
+  const handleDelete = async (id) => {
+    dispatch({ type: actions.FETCH_DATA })
+    try {
+      await Http.instance.delete(`employees/${id}`)
+      const filtered = state.employeesList.filter(elem => (
+        elem.employee_id !== id
+      ))
+      dispatch({ type: actions.SET_EMPLOYEE_LIST, payload: filtered })
+    } catch (error) {
+      console.log(error)
+      dispatch({ type: actions.FAILED_CONNECTION })
+    }
+  }
+
+  const toggleInactives = () => {
+    dispatch({ type: actions.TOGGLE_SHOW_INACTIVES })
   }
 
   useEffect(() => {
     fetchEmployees()
-  }, [])
+  }, [state.showInactives])
 
-  useEffect(() => {
-    console.log(employeeList)
-  }, [employeeList])
-
-  if (isFetching) {
-    return (
-      <h1>Cargando...</h1>
-    )
-  }
   return (
-    <>
-      <h1 style={{ color: 'var(--green)', fontSize: '24px' }}>Empleados activos</h1>
-      <Ul>
-        <Li columns={5}>
-          <Field>ID</Field>
-          <Field>Nombre</Field>
-          <Field>DNI</Field>
-          <Field>Contraseña</Field>
-          <Field>Telefono</Field>
-        </Li>
-        {
-        employeeList.map((employee, index) => (
-          <EmployeeLi index={index} key={index} columns={5}>
-            <P>{employee.employee_id}</P>
-            <P>{employee.fullname}</P>
-            <P>{employee.dni}</P>
-            <P>{employee.password}</P>
-            <P>{employee.mobile}</P>
-          </EmployeeLi>
-        ))
-      }
-      </Ul>
-    </>
+    <EmployeesScreen
+      state={state}
+      toggleEdit={toggleEdit}
+      onSubmit={handleSubmit}
+      onDelete={handleDelete}
+      toggleInactives={toggleInactives}
+    />
   )
 }
 

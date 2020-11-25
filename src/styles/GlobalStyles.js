@@ -29,6 +29,10 @@ const GlobalStyle = createGlobalStyle`
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
 
     @font-face {
       font-family: 'JosefinSans';
@@ -69,21 +73,5 @@ const GlobalStyle = createGlobalStyle`
   ol, ul {
     list-style: none;
   }
-
-  blockquote, q {
-    quotes: none;
-  }
-
-  blockquote:before, blockquote:after,
-  q:before, q:after {
-    content: '';
-    content: none;
-  }
-
-  table {
-    border-collapse: collapse;
-    border-spacing: 0;
-  }
-
 `
 export default GlobalStyle

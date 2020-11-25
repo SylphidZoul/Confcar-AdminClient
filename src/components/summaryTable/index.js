@@ -1,7 +1,6 @@
-import React from 'react'
-import { Ul, Li, Field, EmployeeLi, P } from '../../styles/Table'
+import { Ul, Li, Field, ItemLi, P } from '../../styles/Table'
 
-const SummaryTable = ({ details, data }) => {
+const SummaryTable = ({ details, data, summaryType }) => {
   return (
     <Ul>
       <Li columns={3}>
@@ -10,13 +9,25 @@ const SummaryTable = ({ details, data }) => {
         <Field>Dinero</Field>
       </Li>
       {
-        details.map((employee, index) => (
-          <EmployeeLi index={index} key={employee.rawHours + index} columns={3}>
-            <P>{employee.fullname}</P>
-            <P>{employee.weekHours}</P>
-            <P>${employee.weekPay}</P>
-          </EmployeeLi>
-        ))
+        details.map((employee, index) => {
+          if (summaryType === 'Semana') {
+            return (
+              <ItemLi index={index} key={employee.rawHours + index} columns={3}>
+                <P>{employee.fullname}</P>
+                <P>{employee.weekHours}</P>
+                <P>${employee.weekPay}</P>
+              </ItemLi>
+            )
+          } else {
+            return (
+              <ItemLi index={index} key={employee.rawHours + index} columns={3}>
+                <P>{employee.fullname}</P>
+                <P>{employee.hours}</P>
+                <P>${employee.pay}</P>
+              </ItemLi>
+            )
+          }
+        })
       }
       <Li columns={3}>
         <Field>Total</Field>

@@ -1,16 +1,20 @@
 import styled from 'styled-components'
 
 export const MainWrapper = styled.main`
+  position: relative;
+  z-index: 2;
   display: grid;
+  row-gap: 20px;
   justify-items: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   margin-top: 20px;
   padding: 40px 60px;
-  background: rgba(10, 10, 10, 0.8);
   border-radius: 5px;
-  z-index: 2;
+  background: rgba(10, 10, 10, 0.8);
   overflow-y: scroll;
+  color: var(--white);
   &::-webkit-scrollbar {
     width: 10px;
   }
@@ -26,4 +30,13 @@ export const MainWrapper = styled.main`
   &::-webkit-scrollbar-thumb:hover {
     background: var(--green);
   } 
+`
+
+export const ScreenTitle = styled.h1`
+  margin-bottom: 16px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  text-align: center;
+  font-weight: 600;
+  color: var(--green);
 `

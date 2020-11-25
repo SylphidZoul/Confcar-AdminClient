@@ -1,4 +1,3 @@
-import React from 'react'
 import { Nav, Ul, Link } from './styles'
 
 const NavBar = () => {

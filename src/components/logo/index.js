@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components'
 import logo from '../../assets/logo2.png'
 
@@ -14,6 +13,7 @@ const Img = styled.img`
   right: -20px;
   width: 50%;
   z-index: -1;
+  pointer-events: none;
 `
 
 export default Logo
