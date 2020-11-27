@@ -34,3 +34,6 @@ _Work in Progress_
 * [react-calendar](https://www.npmjs.com/package/react-calendar)
 * [styled-components](https://www.npmjs.com/package/styled-components)
 * [standard](https://standardjs.com/) - linter.
+* [jest](https://jestjs.io/) - testing
+* [enzyme](https://enzymejs.github.io/enzyme/) - testing
+* [enzyme-to-json](https://www.npmjs.com/package/enzyme-to-json) - testing snapshots
