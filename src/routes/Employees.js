@@ -10,8 +10,8 @@ const Employees = () => {
     dispatch({ type: actions.FETCH_DATA })
     const query = state.showInactives ? 'employees/active=0' : 'employees'
     try {
-      const data = await Http.instance.get(query)
-      dispatch({ type: actions.SET_EMPLOYEE_LIST, payload: data.body })
+      const { body } = await Http.instance.get(query)
+      dispatch({ type: actions.SET_EMPLOYEE_LIST, payload: body })
     } catch (error) {
       console.log('error fetch')
       dispatch({ type: actions.FAILED_CONNECTION })

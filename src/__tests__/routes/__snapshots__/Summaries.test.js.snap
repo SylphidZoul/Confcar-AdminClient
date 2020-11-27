@@ -1,0 +1,3860 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Summaries Tests Validate Snapshot 1`] = `
+<Summaries>
+  <Summary
+    onChange={[Function]}
+    onChangeType={[Function]}
+    onClick={[Function]}
+    state={
+      Object {
+        "employeesData": Array [
+          Object {
+            "detailedDays": Array [],
+            "fullname": "Raúl",
+            "rawHours": "PT23400S",
+            "weekHours": "06:30",
+            "weekNumber": 41,
+            "weekPay": 449,
+          },
+          Object {
+            "detailedDays": Array [],
+            "fullname": "Agustina",
+            "rawHours": "PT234003",
+            "weekHours": "06:00",
+            "weekNumber": 41,
+            "weekPay": 50,
+          },
+        ],
+        "isFetching": false,
+        "showCalendar": false,
+        "summaryType": "week",
+        "totalData": Object {
+          "hours": "12:30",
+          "pay": 499,
+          "weekNumber": 41,
+        },
+        "typeString": "Semana",
+      }
+    }
+  >
+    <styled.h1>
+      <h1
+        className="sc-dIsAE kajrpc"
+      >
+        Detalles de Semana
+      </h1>
+    </styled.h1>
+    <styled.div
+      show={false}
+    >
+      <div
+        className="sc-iCoHVE bikNpR"
+      >
+        <styled.button
+          onClick={[Function]}
+        >
+          <button
+            className="sc-fujyUd ebaOC"
+            onClick={[Function]}
+          >
+            Buscar otra fecha
+            <styled.img
+              alt="arrow"
+              show={false}
+              src="arrow.svg"
+            >
+              <img
+                alt="arrow"
+                className="sc-pNWxx ixckf"
+                src="arrow.svg"
+              />
+            </styled.img>
+          </button>
+        </styled.button>
+        <Calendar
+          locale="es-419"
+          maxDetail="month"
+          minDetail="century"
+          onChange={[Function]}
+          returnValue="start"
+          showNavigation={true}
+          showNeighboringMonth={true}
+        >
+          <div
+            className="react-calendar"
+          >
+            <Navigation
+              activeStartDate={2020-11-01T03:00:00.000Z}
+              drillUp={[Function]}
+              locale="es-419"
+              setActiveStartDate={[Function]}
+              view="month"
+              views={
+                Array [
+                  "century",
+                  "decade",
+                  "year",
+                  "month",
+                ]
+              }
+            >
+              <div
+                className="react-calendar__navigation"
+                style={
+                  Object {
+                    "display": "flex",
+                  }
+                }
+              >
+                <button
+                  aria-label=""
+                  className="react-calendar__navigation__arrow react-calendar__navigation__prev2-button"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  «
+                </button>
+                <button
+                  aria-label=""
+                  className="react-calendar__navigation__arrow react-calendar__navigation__prev-button"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  ‹
+                </button>
+                <button
+                  aria-label=""
+                  className="react-calendar__navigation__label"
+                  disabled={false}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "flexGrow": 1,
+                    }
+                  }
+                  type="button"
+                >
+                  <span
+                    className="react-calendar__navigation__label__labelText react-calendar__navigation__label__labelText--from"
+                  >
+                    noviembre de 2020
+                  </span>
+                </button>
+                <button
+                  aria-label=""
+                  className="react-calendar__navigation__arrow react-calendar__navigation__next-button"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  ›
+                </button>
+                <button
+                  aria-label=""
+                  className="react-calendar__navigation__arrow react-calendar__navigation__next2-button"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  »
+                </button>
+              </div>
+            </Navigation>
+            <div
+              className="react-calendar__viewContainer"
+              onBlur={null}
+              onMouseLeave={null}
+            >
+              <MonthView
+                activeStartDate={2020-11-01T03:00:00.000Z}
+                hover={null}
+                locale="es-419"
+                onClick={[Function]}
+                onMouseLeave={null}
+                onMouseOver={null}
+                showNeighboringMonth={true}
+                valueType="day"
+              >
+                <div
+                  className="react-calendar__month-view "
+                >
+                  <div
+                    style={
+                      Object {
+                        "alignItems": "flex-end",
+                        "display": "flex",
+                      }
+                    }
+                  >
+                    <div
+                      style={
+                        Object {
+                          "flexGrow": 1,
+                          "width": "100%",
+                        }
+                      }
+                    >
+                      <Weekdays
+                        calendarType="ISO 8601"
+                        locale="es-419"
+                        onMouseLeave={null}
+                      >
+                        <Flex
+                          className="react-calendar__month-view__weekdays"
+                          count={7}
+                          onFocus={null}
+                          onMouseOver={null}
+                        >
+                          <div
+                            className="react-calendar__month-view__weekdays"
+                            onFocus={null}
+                            onMouseOver={null}
+                            style={
+                              Object {
+                                "display": "flex",
+                                "flexDirection": undefined,
+                                "flexWrap": "no-wrap",
+                              }
+                            }
+                          >
+                            <div
+                              className="react-calendar__month-view__weekdays__weekday"
+                              key=".$1"
+                              style={
+                                Object {
+                                  "flexBasis": "14.285714285714286%",
+                                  "marginLeft": null,
+                                  "maxWidth": "14.285714285714286%",
+                                  "overflow": "hidden",
+                                }
+                              }
+                            >
+                              <abbr
+                                aria-label="lunes"
+                                title="lunes"
+                              >
+                                lun
+                              </abbr>
+                            </div>
+                            <div
+                              className="react-calendar__month-view__weekdays__weekday"
+                              key=".$2"
+                              style={
+                                Object {
+                                  "flexBasis": "14.285714285714286%",
+                                  "marginLeft": null,
+                                  "maxWidth": "14.285714285714286%",
+                                  "overflow": "hidden",
+                                }
+                              }
+                            >
+                              <abbr
+                                aria-label="martes"
+                                title="martes"
+                              >
+                                mar
+                              </abbr>
+                            </div>
+                            <div
+                              className="react-calendar__month-view__weekdays__weekday"
+                              key=".$3"
+                              style={
+                                Object {
+                                  "flexBasis": "14.285714285714286%",
+                                  "marginLeft": null,
+                                  "maxWidth": "14.285714285714286%",
+                                  "overflow": "hidden",
+                                }
+                              }
+                            >
+                              <abbr
+                                aria-label="miércoles"
+                                title="miércoles"
+                              >
+                                mié
+                              </abbr>
+                            </div>
+                            <div
+                              className="react-calendar__month-view__weekdays__weekday"
+                              key=".$4"
+                              style={
+                                Object {
+                                  "flexBasis": "14.285714285714286%",
+                                  "marginLeft": null,
+                                  "maxWidth": "14.285714285714286%",
+                                  "overflow": "hidden",
+                                }
+                              }
+                            >
+                              <abbr
+                                aria-label="jueves"
+                                title="jueves"
+                              >
+                                jue
+                              </abbr>
+                            </div>
+                            <div
+                              className="react-calendar__month-view__weekdays__weekday"
+                              key=".$5"
+                              style={
+                                Object {
+                                  "flexBasis": "14.285714285714286%",
+                                  "marginLeft": null,
+                                  "maxWidth": "14.285714285714286%",
+                                  "overflow": "hidden",
+                                }
+                              }
+                            >
+                              <abbr
+                                aria-label="viernes"
+                                title="viernes"
+                              >
+                                vie
+                              </abbr>
+                            </div>
+                            <div
+                              className="react-calendar__month-view__weekdays__weekday"
+                              key=".$6"
+                              style={
+                                Object {
+                                  "flexBasis": "14.285714285714286%",
+                                  "marginLeft": null,
+                                  "maxWidth": "14.285714285714286%",
+                                  "overflow": "hidden",
+                                }
+                              }
+                            >
+                              <abbr
+                                aria-label="sábado"
+                                title="sábado"
+                              >
+                                sáb
+                              </abbr>
+                            </div>
+                            <div
+                              className="react-calendar__month-view__weekdays__weekday"
+                              key=".$7"
+                              style={
+                                Object {
+                                  "flexBasis": "14.285714285714286%",
+                                  "marginLeft": null,
+                                  "maxWidth": "14.285714285714286%",
+                                  "overflow": "hidden",
+                                }
+                              }
+                            >
+                              <abbr
+                                aria-label="domingo"
+                                title="domingo"
+                              >
+                                dom
+                              </abbr>
+                            </div>
+                          </div>
+                        </Flex>
+                      </Weekdays>
+                      <Days
+                        activeStartDate={2020-11-01T03:00:00.000Z}
+                        calendarType="ISO 8601"
+                        hover={null}
+                        locale="es-419"
+                        onClick={[Function]}
+                        onMouseLeave={null}
+                        onMouseOver={null}
+                        showNeighboringMonth={true}
+                        valueType="day"
+                      >
+                        <TileGroup
+                          activeStartDate={2020-11-01T03:00:00.000Z}
+                          calendarType="ISO 8601"
+                          className="react-calendar__month-view__days"
+                          count={7}
+                          currentMonthIndex={10}
+                          dateTransform={[Function]}
+                          dateType="day"
+                          end={36}
+                          hover={null}
+                          locale="es-419"
+                          offset={0}
+                          onClick={[Function]}
+                          onMouseLeave={null}
+                          onMouseOver={null}
+                          start={-5}
+                          tile={[Function]}
+                          valueType="day"
+                        >
+                          <Flex
+                            className="react-calendar__month-view__days"
+                            count={7}
+                            offset={0}
+                            wrap={true}
+                          >
+                            <div
+                              className="react-calendar__month-view__days"
+                              style={
+                                Object {
+                                  "display": "flex",
+                                  "flexDirection": undefined,
+                                  "flexWrap": "wrap",
+                                }
+                              }
+                            >
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-10-26T03:00:00.000Z}
+                                key=".$1603681200000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={-5}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      "react-calendar__month-view__days__day--neighboringMonth",
+                                    ]
+                                  }
+                                  date={2020-10-26T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={-5}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--neighboringMonth"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="26 de octubre de 2020"
+                                    >
+                                      26
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-10-27T03:00:00.000Z}
+                                key=".$1603767600000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={-4}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      "react-calendar__month-view__days__day--neighboringMonth",
+                                    ]
+                                  }
+                                  date={2020-10-27T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={-4}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--neighboringMonth"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="27 de octubre de 2020"
+                                    >
+                                      27
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-10-28T03:00:00.000Z}
+                                key=".$1603854000000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={-3}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      "react-calendar__month-view__days__day--neighboringMonth",
+                                    ]
+                                  }
+                                  date={2020-10-28T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={-3}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--neighboringMonth"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="28 de octubre de 2020"
+                                    >
+                                      28
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-10-29T03:00:00.000Z}
+                                key=".$1603940400000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={-2}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      "react-calendar__month-view__days__day--neighboringMonth",
+                                    ]
+                                  }
+                                  date={2020-10-29T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={-2}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--neighboringMonth"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="29 de octubre de 2020"
+                                    >
+                                      29
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-10-30T03:00:00.000Z}
+                                key=".$1604026800000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={-1}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      "react-calendar__month-view__days__day--neighboringMonth",
+                                    ]
+                                  }
+                                  date={2020-10-30T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={-1}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--neighboringMonth"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="30 de octubre de 2020"
+                                    >
+                                      30
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-10-31T03:00:00.000Z}
+                                key=".$1604113200000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={0}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      "react-calendar__month-view__days__day--weekend",
+                                      "react-calendar__month-view__days__day--neighboringMonth",
+                                    ]
+                                  }
+                                  date={2020-10-31T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={0}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend react-calendar__month-view__days__day--neighboringMonth"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="31 de octubre de 2020"
+                                    >
+                                      31
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-01T03:00:00.000Z}
+                                key=".$1604199600000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={1}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      "react-calendar__month-view__days__day--weekend",
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-01T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={1}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="1 de noviembre de 2020"
+                                    >
+                                      1
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-02T03:00:00.000Z}
+                                key=".$1604286000000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={2}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-02T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={2}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="2 de noviembre de 2020"
+                                    >
+                                      2
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-03T03:00:00.000Z}
+                                key=".$1604372400000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={3}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-03T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={3}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="3 de noviembre de 2020"
+                                    >
+                                      3
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-04T03:00:00.000Z}
+                                key=".$1604458800000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={4}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-04T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={4}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="4 de noviembre de 2020"
+                                    >
+                                      4
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-05T03:00:00.000Z}
+                                key=".$1604545200000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={5}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-05T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={5}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="5 de noviembre de 2020"
+                                    >
+                                      5
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-06T03:00:00.000Z}
+                                key=".$1604631600000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={6}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-06T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={6}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="6 de noviembre de 2020"
+                                    >
+                                      6
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-07T03:00:00.000Z}
+                                key=".$1604718000000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={7}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      "react-calendar__month-view__days__day--weekend",
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-07T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={7}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="7 de noviembre de 2020"
+                                    >
+                                      7
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-08T03:00:00.000Z}
+                                key=".$1604804400000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={8}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      "react-calendar__month-view__days__day--weekend",
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-08T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={8}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="8 de noviembre de 2020"
+                                    >
+                                      8
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-09T03:00:00.000Z}
+                                key=".$1604890800000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={9}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-09T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={9}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="9 de noviembre de 2020"
+                                    >
+                                      9
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-10T03:00:00.000Z}
+                                key=".$1604977200000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={10}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-10T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={10}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="10 de noviembre de 2020"
+                                    >
+                                      10
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-11T03:00:00.000Z}
+                                key=".$1605063600000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={11}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-11T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={11}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="11 de noviembre de 2020"
+                                    >
+                                      11
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-12T03:00:00.000Z}
+                                key=".$1605150000000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={12}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-12T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={12}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="12 de noviembre de 2020"
+                                    >
+                                      12
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-13T03:00:00.000Z}
+                                key=".$1605236400000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={13}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-13T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={13}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="13 de noviembre de 2020"
+                                    >
+                                      13
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-14T03:00:00.000Z}
+                                key=".$1605322800000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={14}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      "react-calendar__month-view__days__day--weekend",
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-14T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={14}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="14 de noviembre de 2020"
+                                    >
+                                      14
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-15T03:00:00.000Z}
+                                key=".$1605409200000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={15}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      "react-calendar__month-view__days__day--weekend",
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-15T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={15}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="15 de noviembre de 2020"
+                                    >
+                                      15
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-16T03:00:00.000Z}
+                                key=".$1605495600000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={16}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-16T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={16}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="16 de noviembre de 2020"
+                                    >
+                                      16
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-17T03:00:00.000Z}
+                                key=".$1605582000000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={17}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-17T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={17}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="17 de noviembre de 2020"
+                                    >
+                                      17
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-18T03:00:00.000Z}
+                                key=".$1605668400000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={18}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-18T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={18}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="18 de noviembre de 2020"
+                                    >
+                                      18
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-19T03:00:00.000Z}
+                                key=".$1605754800000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={19}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-19T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={19}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="19 de noviembre de 2020"
+                                    >
+                                      19
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-20T03:00:00.000Z}
+                                key=".$1605841200000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={20}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-20T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={20}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="20 de noviembre de 2020"
+                                    >
+                                      20
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-21T03:00:00.000Z}
+                                key=".$1605927600000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={21}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      "react-calendar__month-view__days__day--weekend",
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-21T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={21}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="21 de noviembre de 2020"
+                                    >
+                                      21
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-22T03:00:00.000Z}
+                                key=".$1606014000000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={22}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      "react-calendar__month-view__days__day--weekend",
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-22T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={22}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="22 de noviembre de 2020"
+                                    >
+                                      22
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-23T03:00:00.000Z}
+                                key=".$1606100400000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={23}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-23T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={23}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="23 de noviembre de 2020"
+                                    >
+                                      23
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-24T03:00:00.000Z}
+                                key=".$1606186800000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={24}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-24T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={24}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="24 de noviembre de 2020"
+                                    >
+                                      24
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-25T03:00:00.000Z}
+                                key=".$1606273200000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={25}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-25T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={25}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="25 de noviembre de 2020"
+                                    >
+                                      25
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                    "react-calendar__tile--now",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-26T03:00:00.000Z}
+                                key=".$1606359600000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={26}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__tile--now",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-26T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={26}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__tile--now react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="26 de noviembre de 2020"
+                                    >
+                                      26
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-27T03:00:00.000Z}
+                                key=".$1606446000000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={27}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-27T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={27}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="27 de noviembre de 2020"
+                                    >
+                                      27
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-28T03:00:00.000Z}
+                                key=".$1606532400000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={28}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      "react-calendar__month-view__days__day--weekend",
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-28T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={28}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="28 de noviembre de 2020"
+                                    >
+                                      28
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-29T03:00:00.000Z}
+                                key=".$1606618800000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={29}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      "react-calendar__month-view__days__day--weekend",
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-29T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={29}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="29 de noviembre de 2020"
+                                    >
+                                      29
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-11-30T03:00:00.000Z}
+                                key=".$1606705200000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={30}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      null,
+                                    ]
+                                  }
+                                  date={2020-11-30T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={30}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="30 de noviembre de 2020"
+                                    >
+                                      30
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-12-01T03:00:00.000Z}
+                                key=".$1606791600000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={31}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      "react-calendar__month-view__days__day--neighboringMonth",
+                                    ]
+                                  }
+                                  date={2020-12-01T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={31}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--neighboringMonth"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="1 de diciembre de 2020"
+                                    >
+                                      1
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-12-02T03:00:00.000Z}
+                                key=".$1606878000000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={32}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      "react-calendar__month-view__days__day--neighboringMonth",
+                                    ]
+                                  }
+                                  date={2020-12-02T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={32}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--neighboringMonth"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="2 de diciembre de 2020"
+                                    >
+                                      2
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-12-03T03:00:00.000Z}
+                                key=".$1606964400000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={33}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      "react-calendar__month-view__days__day--neighboringMonth",
+                                    ]
+                                  }
+                                  date={2020-12-03T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={33}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--neighboringMonth"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="3 de diciembre de 2020"
+                                    >
+                                      3
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-12-04T03:00:00.000Z}
+                                key=".$1607050800000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={34}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      null,
+                                      "react-calendar__month-view__days__day--neighboringMonth",
+                                    ]
+                                  }
+                                  date={2020-12-04T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={34}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--neighboringMonth"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="4 de diciembre de 2020"
+                                    >
+                                      4
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-12-05T03:00:00.000Z}
+                                key=".$1607137200000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={35}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      "react-calendar__month-view__days__day--weekend",
+                                      "react-calendar__month-view__days__day--neighboringMonth",
+                                    ]
+                                  }
+                                  date={2020-12-05T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={35}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend react-calendar__month-view__days__day--neighboringMonth"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="5 de diciembre de 2020"
+                                    >
+                                      5
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                              <Day
+                                activeStartDate={2020-11-01T03:00:00.000Z}
+                                calendarType="ISO 8601"
+                                classes={
+                                  Array [
+                                    "react-calendar__tile",
+                                  ]
+                                }
+                                currentMonthIndex={10}
+                                date={2020-12-06T03:00:00.000Z}
+                                key=".$1607223600000"
+                                locale="es-419"
+                                onClick={[Function]}
+                                onMouseLeave={null}
+                                onMouseOver={null}
+                                point={36}
+                                style={
+                                  Object {
+                                    "flexBasis": "14.285714285714286%",
+                                    "marginLeft": null,
+                                    "maxWidth": "14.285714285714286%",
+                                    "overflow": "hidden",
+                                  }
+                                }
+                              >
+                                <Tile
+                                  activeStartDate={2020-11-01T03:00:00.000Z}
+                                  classes={
+                                    Array [
+                                      "react-calendar__tile",
+                                      "react-calendar__month-view__days__day",
+                                      "react-calendar__month-view__days__day--weekend",
+                                      "react-calendar__month-view__days__day--neighboringMonth",
+                                    ]
+                                  }
+                                  date={2020-12-06T03:00:00.000Z}
+                                  formatAbbr={[Function]}
+                                  locale="es-419"
+                                  maxDateTransform={[Function]}
+                                  minDateTransform={[Function]}
+                                  onClick={[Function]}
+                                  onMouseLeave={null}
+                                  onMouseOver={null}
+                                  point={36}
+                                  style={
+                                    Object {
+                                      "flexBasis": "14.285714285714286%",
+                                      "marginLeft": null,
+                                      "maxWidth": "14.285714285714286%",
+                                      "overflow": "hidden",
+                                    }
+                                  }
+                                  view="month"
+                                >
+                                  <button
+                                    className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend react-calendar__month-view__days__day--neighboringMonth"
+                                    onClick={[Function]}
+                                    onFocus={null}
+                                    onMouseOver={null}
+                                    style={
+                                      Object {
+                                        "flexBasis": "14.285714285714286%",
+                                        "marginLeft": null,
+                                        "maxWidth": "14.285714285714286%",
+                                        "overflow": "hidden",
+                                      }
+                                    }
+                                    type="button"
+                                  >
+                                    <abbr
+                                      aria-label="6 de diciembre de 2020"
+                                    >
+                                      6
+                                    </abbr>
+                                  </button>
+                                </Tile>
+                              </Day>
+                            </div>
+                          </Flex>
+                        </TileGroup>
+                      </Days>
+                    </div>
+                  </div>
+                </div>
+              </MonthView>
+            </div>
+          </div>
+        </Calendar>
+      </div>
+    </styled.div>
+    <styled.div>
+      <div
+        className="sc-kEqYlL egFAtH"
+      >
+        <label>
+          Resumenes por:
+        </label>
+        <styled.select
+          onChange={[Function]}
+        >
+          <select
+            className="sc-iqAbSa jJHEtQ"
+            onChange={[Function]}
+          >
+            <option
+              value="week"
+            >
+              Semanas
+            </option>
+            <option
+              value="month"
+            >
+              Meses
+            </option>
+            <option
+              value="year"
+            >
+              Años
+            </option>
+          </select>
+        </styled.select>
+      </div>
+    </styled.div>
+    <styled.div>
+      <div
+        className="sc-kEqYlL egFAtH"
+      >
+        <styled.h2>
+          <h2
+            className="sc-jrsJCI iqIeTF"
+          >
+            Semana
+             
+            41
+          </h2>
+        </styled.h2>
+        <SummaryTable
+          data={
+            Object {
+              "hours": "12:30",
+              "pay": 499,
+              "weekNumber": 41,
+            }
+          }
+          details={
+            Array [
+              Object {
+                "detailedDays": Array [],
+                "fullname": "Raúl",
+                "rawHours": "PT23400S",
+                "weekHours": "06:30",
+                "weekNumber": 41,
+                "weekPay": 449,
+              },
+              Object {
+                "detailedDays": Array [],
+                "fullname": "Agustina",
+                "rawHours": "PT234003",
+                "weekHours": "06:00",
+                "weekNumber": 41,
+                "weekPay": 50,
+              },
+            ]
+          }
+          summaryType="Semana"
+        >
+          <styled.ul>
+            <ul
+              className="sc-bdnylx eTsEhl"
+            >
+              <styled.li
+                columns={3}
+              >
+                <li
+                  className="sc-gtssRu iABYXF"
+                >
+                  <styled.h3>
+                    <h3
+                      className="sc-hKFyIo etqfMD"
+                    >
+                      Nombre
+                    </h3>
+                  </styled.h3>
+                  <styled.h3>
+                    <h3
+                      className="sc-hKFyIo etqfMD"
+                    >
+                      Horas
+                    </h3>
+                  </styled.h3>
+                  <styled.h3>
+                    <h3
+                      className="sc-hKFyIo etqfMD"
+                    >
+                      Dinero
+                    </h3>
+                  </styled.h3>
+                </li>
+              </styled.li>
+              <Styled(styled.li)
+                columns={3}
+                index={0}
+                key="PT23400S0"
+              >
+                <li
+                  className="sc-gtssRu sc-dlnjPT iABYXF hcaTng"
+                >
+                  <styled.p>
+                    <p
+                      className="sc-eCApGN dDzstV"
+                    >
+                      Raúl
+                    </p>
+                  </styled.p>
+                  <styled.p>
+                    <p
+                      className="sc-eCApGN dDzstV"
+                    >
+                      06:30
+                    </p>
+                  </styled.p>
+                  <styled.p>
+                    <p
+                      className="sc-eCApGN dDzstV"
+                    >
+                      $
+                      449
+                    </p>
+                  </styled.p>
+                </li>
+              </Styled(styled.li)>
+              <Styled(styled.li)
+                columns={3}
+                index={1}
+                key="PT2340031"
+              >
+                <li
+                  className="sc-gtssRu sc-dlnjPT iABYXF iUxqhc"
+                >
+                  <styled.p>
+                    <p
+                      className="sc-eCApGN dDzstV"
+                    >
+                      Agustina
+                    </p>
+                  </styled.p>
+                  <styled.p>
+                    <p
+                      className="sc-eCApGN dDzstV"
+                    >
+                      06:00
+                    </p>
+                  </styled.p>
+                  <styled.p>
+                    <p
+                      className="sc-eCApGN dDzstV"
+                    >
+                      $
+                      50
+                    </p>
+                  </styled.p>
+                </li>
+              </Styled(styled.li)>
+              <styled.li
+                columns={3}
+              >
+                <li
+                  className="sc-gtssRu iABYXF"
+                >
+                  <styled.h3>
+                    <h3
+                      className="sc-hKFyIo etqfMD"
+                    >
+                      Total
+                    </h3>
+                  </styled.h3>
+                  <styled.h3>
+                    <h3
+                      className="sc-hKFyIo etqfMD"
+                    >
+                      12:30
+                    </h3>
+                  </styled.h3>
+                  <styled.h3>
+                    <h3
+                      className="sc-hKFyIo etqfMD"
+                    >
+                      $
+                      499
+                    </h3>
+                  </styled.h3>
+                </li>
+              </styled.li>
+            </ul>
+          </styled.ul>
+        </SummaryTable>
+      </div>
+    </styled.div>
+  </Summary>
+</Summaries>
+`;

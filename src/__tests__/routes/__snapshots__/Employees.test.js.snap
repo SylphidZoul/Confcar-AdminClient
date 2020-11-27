@@ -1,0 +1,614 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Employees Tests Validate Snapshot 1`] = `
+<HashRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Employees>
+      <EmployeesScreen
+        onDelete={[Function]}
+        onSubmit={[Function]}
+        state={
+          Object {
+            "editMode": false,
+            "employeesList": Array [
+              Object {
+                "dni": 38098706,
+                "employee_id": 2,
+                "fullname": "Juan",
+                "hourly_pay": 110,
+                "mobile": 1164329741,
+                "password": "asd1234",
+              },
+              Object {
+                "dni": 17753281,
+                "employee_id": 16,
+                "fullname": "Carlos",
+                "hourly_pay": 104,
+                "mobile": 1164329741,
+                "password": "852123",
+              },
+              Object {
+                "dni": 37098750,
+                "employee_id": 54,
+                "fullname": "Mariano",
+                "hourly_pay": 78,
+                "mobile": 1164329700,
+                "password": "963741",
+              },
+            ],
+            "isFetching": false,
+            "selectedEmployee": -1,
+            "showInactives": false,
+          }
+        }
+        toggleEdit={[Function]}
+        toggleInactives={[Function]}
+      >
+        <styled.h1>
+          <h1
+            className="sc-fujyUd bhxXcD"
+          >
+            Empleados Activos
+          </h1>
+        </styled.h1>
+        <EditableTable
+          editMode={false}
+          fieldList={
+            Array [
+              "Id",
+              "Nombre",
+              "DNI",
+              "Contraseña",
+              "Teléfono",
+              "Pesos/Hora",
+            ]
+          }
+          handleDelete={[Function]}
+          idKey="employee_id"
+          itemList={
+            Array [
+              Object {
+                "dni": 38098706,
+                "employee_id": 2,
+                "fullname": "Juan",
+                "hourly_pay": 110,
+                "mobile": 1164329741,
+                "password": "asd1234",
+              },
+              Object {
+                "dni": 17753281,
+                "employee_id": 16,
+                "fullname": "Carlos",
+                "hourly_pay": 104,
+                "mobile": 1164329741,
+                "password": "852123",
+              },
+              Object {
+                "dni": 37098750,
+                "employee_id": 54,
+                "fullname": "Mariano",
+                "hourly_pay": 78,
+                "mobile": 1164329700,
+                "password": "963741",
+              },
+            ]
+          }
+          renderEditableItem={[Function]}
+          selectedItem={-1}
+          toggleEdit={[Function]}
+        >
+          <styled.ul>
+            <ul
+              className="sc-bdnylx eTsEhl"
+            >
+              <styled.li
+                columns={6}
+              >
+                <li
+                  className="sc-gtssRu gJGQeg"
+                >
+                  <styled.h3
+                    key="0"
+                  >
+                    <h3
+                      className="sc-hKFyIo etqfMD"
+                    >
+                      Id
+                    </h3>
+                  </styled.h3>
+                  <styled.h3
+                    key="1"
+                  >
+                    <h3
+                      className="sc-hKFyIo etqfMD"
+                    >
+                      Nombre
+                    </h3>
+                  </styled.h3>
+                  <styled.h3
+                    key="2"
+                  >
+                    <h3
+                      className="sc-hKFyIo etqfMD"
+                    >
+                      DNI
+                    </h3>
+                  </styled.h3>
+                  <styled.h3
+                    key="3"
+                  >
+                    <h3
+                      className="sc-hKFyIo etqfMD"
+                    >
+                      Contraseña
+                    </h3>
+                  </styled.h3>
+                  <styled.h3
+                    key="4"
+                  >
+                    <h3
+                      className="sc-hKFyIo etqfMD"
+                    >
+                      Teléfono
+                    </h3>
+                  </styled.h3>
+                  <styled.h3
+                    key="5"
+                  >
+                    <h3
+                      className="sc-hKFyIo etqfMD"
+                    >
+                      Pesos/Hora
+                    </h3>
+                  </styled.h3>
+                </li>
+              </styled.li>
+              <TableItem
+                handleDelete={[Function]}
+                id={2}
+                index={0}
+                item={
+                  Object {
+                    "dni": 38098706,
+                    "employee_id": 2,
+                    "fullname": "Juan",
+                    "hourly_pay": 110,
+                    "mobile": 1164329741,
+                    "password": "asd1234",
+                  }
+                }
+                key="0"
+                toggleEdit={[Function]}
+              >
+                <Styled(styled.li)
+                  columns={6}
+                  index={0}
+                >
+                  <li
+                    className="sc-gtssRu sc-dlnjPT gJGQeg hcaTng"
+                  >
+                    <styled.p
+                      key="0"
+                    >
+                      <p
+                        className="sc-eCApGN dDzstV"
+                      >
+                        38098706
+                      </p>
+                    </styled.p>
+                    <styled.p
+                      key="1"
+                    >
+                      <p
+                        className="sc-eCApGN dDzstV"
+                      >
+                        2
+                      </p>
+                    </styled.p>
+                    <styled.p
+                      key="2"
+                    >
+                      <p
+                        className="sc-eCApGN dDzstV"
+                      >
+                        Juan
+                      </p>
+                    </styled.p>
+                    <styled.p
+                      key="3"
+                    >
+                      <p
+                        className="sc-eCApGN dDzstV"
+                      >
+                        110
+                      </p>
+                    </styled.p>
+                    <styled.p
+                      key="4"
+                    >
+                      <p
+                        className="sc-eCApGN dDzstV"
+                      >
+                        1164329741
+                      </p>
+                    </styled.p>
+                    <styled.p
+                      key="5"
+                    >
+                      <p
+                        className="sc-eCApGN dDzstV"
+                      >
+                        asd1234
+                      </p>
+                    </styled.p>
+                    <styled.div>
+                      <div
+                        className="sc-jSFkmK iTPIHR"
+                      >
+                        <styled.button
+                          onClick={[Function]}
+                        >
+                          <button
+                            className="sc-gKAblj eQkBzg"
+                            onClick={[Function]}
+                          >
+                            <Pencil>
+                              <svg
+                                fill="#329A97"
+                                height={16}
+                                viewBox="0 0 24 24"
+                                width={16}
+                              >
+                                <path
+                                  d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a.996.996 0 000-1.41l-2.34-2.34a.996.996 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                                />
+                              </svg>
+                            </Pencil>
+                          </button>
+                        </styled.button>
+                        <styled.button
+                          onClick={[Function]}
+                        >
+                          <button
+                            className="sc-gKAblj eQkBzg"
+                            onClick={[Function]}
+                          >
+                            <Thrash>
+                              <svg
+                                fill="#9B0821"
+                                height={16}
+                                viewBox="0 0 24 24"
+                                width={16}
+                              >
+                                <path
+                                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                                />
+                              </svg>
+                            </Thrash>
+                          </button>
+                        </styled.button>
+                      </div>
+                    </styled.div>
+                  </li>
+                </Styled(styled.li)>
+              </TableItem>
+              <TableItem
+                handleDelete={[Function]}
+                id={16}
+                index={1}
+                item={
+                  Object {
+                    "dni": 17753281,
+                    "employee_id": 16,
+                    "fullname": "Carlos",
+                    "hourly_pay": 104,
+                    "mobile": 1164329741,
+                    "password": "852123",
+                  }
+                }
+                key="1"
+                toggleEdit={[Function]}
+              >
+                <Styled(styled.li)
+                  columns={6}
+                  index={1}
+                >
+                  <li
+                    className="sc-gtssRu sc-dlnjPT gJGQeg iUxqhc"
+                  >
+                    <styled.p
+                      key="0"
+                    >
+                      <p
+                        className="sc-eCApGN dDzstV"
+                      >
+                        17753281
+                      </p>
+                    </styled.p>
+                    <styled.p
+                      key="1"
+                    >
+                      <p
+                        className="sc-eCApGN dDzstV"
+                      >
+                        16
+                      </p>
+                    </styled.p>
+                    <styled.p
+                      key="2"
+                    >
+                      <p
+                        className="sc-eCApGN dDzstV"
+                      >
+                        Carlos
+                      </p>
+                    </styled.p>
+                    <styled.p
+                      key="3"
+                    >
+                      <p
+                        className="sc-eCApGN dDzstV"
+                      >
+                        104
+                      </p>
+                    </styled.p>
+                    <styled.p
+                      key="4"
+                    >
+                      <p
+                        className="sc-eCApGN dDzstV"
+                      >
+                        1164329741
+                      </p>
+                    </styled.p>
+                    <styled.p
+                      key="5"
+                    >
+                      <p
+                        className="sc-eCApGN dDzstV"
+                      >
+                        852123
+                      </p>
+                    </styled.p>
+                    <styled.div>
+                      <div
+                        className="sc-jSFkmK iTPIHR"
+                      >
+                        <styled.button
+                          onClick={[Function]}
+                        >
+                          <button
+                            className="sc-gKAblj eQkBzg"
+                            onClick={[Function]}
+                          >
+                            <Pencil>
+                              <svg
+                                fill="#329A97"
+                                height={16}
+                                viewBox="0 0 24 24"
+                                width={16}
+                              >
+                                <path
+                                  d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a.996.996 0 000-1.41l-2.34-2.34a.996.996 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                                />
+                              </svg>
+                            </Pencil>
+                          </button>
+                        </styled.button>
+                        <styled.button
+                          onClick={[Function]}
+                        >
+                          <button
+                            className="sc-gKAblj eQkBzg"
+                            onClick={[Function]}
+                          >
+                            <Thrash>
+                              <svg
+                                fill="#9B0821"
+                                height={16}
+                                viewBox="0 0 24 24"
+                                width={16}
+                              >
+                                <path
+                                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                                />
+                              </svg>
+                            </Thrash>
+                          </button>
+                        </styled.button>
+                      </div>
+                    </styled.div>
+                  </li>
+                </Styled(styled.li)>
+              </TableItem>
+              <TableItem
+                handleDelete={[Function]}
+                id={54}
+                index={2}
+                item={
+                  Object {
+                    "dni": 37098750,
+                    "employee_id": 54,
+                    "fullname": "Mariano",
+                    "hourly_pay": 78,
+                    "mobile": 1164329700,
+                    "password": "963741",
+                  }
+                }
+                key="2"
+                toggleEdit={[Function]}
+              >
+                <Styled(styled.li)
+                  columns={6}
+                  index={2}
+                >
+                  <li
+                    className="sc-gtssRu sc-dlnjPT gJGQeg hcaTng"
+                  >
+                    <styled.p
+                      key="0"
+                    >
+                      <p
+                        className="sc-eCApGN dDzstV"
+                      >
+                        37098750
+                      </p>
+                    </styled.p>
+                    <styled.p
+                      key="1"
+                    >
+                      <p
+                        className="sc-eCApGN dDzstV"
+                      >
+                        54
+                      </p>
+                    </styled.p>
+                    <styled.p
+                      key="2"
+                    >
+                      <p
+                        className="sc-eCApGN dDzstV"
+                      >
+                        Mariano
+                      </p>
+                    </styled.p>
+                    <styled.p
+                      key="3"
+                    >
+                      <p
+                        className="sc-eCApGN dDzstV"
+                      >
+                        78
+                      </p>
+                    </styled.p>
+                    <styled.p
+                      key="4"
+                    >
+                      <p
+                        className="sc-eCApGN dDzstV"
+                      >
+                        1164329700
+                      </p>
+                    </styled.p>
+                    <styled.p
+                      key="5"
+                    >
+                      <p
+                        className="sc-eCApGN dDzstV"
+                      >
+                        963741
+                      </p>
+                    </styled.p>
+                    <styled.div>
+                      <div
+                        className="sc-jSFkmK iTPIHR"
+                      >
+                        <styled.button
+                          onClick={[Function]}
+                        >
+                          <button
+                            className="sc-gKAblj eQkBzg"
+                            onClick={[Function]}
+                          >
+                            <Pencil>
+                              <svg
+                                fill="#329A97"
+                                height={16}
+                                viewBox="0 0 24 24"
+                                width={16}
+                              >
+                                <path
+                                  d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a.996.996 0 000-1.41l-2.34-2.34a.996.996 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                                />
+                              </svg>
+                            </Pencil>
+                          </button>
+                        </styled.button>
+                        <styled.button
+                          onClick={[Function]}
+                        >
+                          <button
+                            className="sc-gKAblj eQkBzg"
+                            onClick={[Function]}
+                          >
+                            <Thrash>
+                              <svg
+                                fill="#9B0821"
+                                height={16}
+                                viewBox="0 0 24 24"
+                                width={16}
+                              >
+                                <path
+                                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                                />
+                              </svg>
+                            </Thrash>
+                          </button>
+                        </styled.button>
+                      </div>
+                    </styled.div>
+                  </li>
+                </Styled(styled.li)>
+              </TableItem>
+            </ul>
+          </styled.ul>
+        </EditableTable>
+        <Styled(Link)
+          to="/employees/signup"
+        >
+          <Link
+            className="sc-jrsJCI hlYSgN"
+            to="/employees/signup"
+          >
+            <LinkAnchor
+              className="sc-jrsJCI hlYSgN"
+              href="#/employees/signup"
+              navigate={[Function]}
+            >
+              <a
+                className="sc-jrsJCI hlYSgN"
+                href="#/employees/signup"
+                onClick={[Function]}
+              >
+                Agregar nuevo empleado
+              </a>
+            </LinkAnchor>
+          </Link>
+        </Styled(Link)>
+        <styled.button
+          onClick={[Function]}
+        >
+          <button
+            className="sc-pNWxx heFUkN"
+            onClick={[Function]}
+          >
+            Ver empleados 
+            inactivos
+          </button>
+        </styled.button>
+      </EmployeesScreen>
+    </Employees>
+  </Router>
+</HashRouter>
+`;
