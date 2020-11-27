@@ -63,6 +63,23 @@ describe('Employees Tests', () => {
     expect(wrapper.find('p').length).toBe(13)
   })
 
+  test('Disable edit mode', async () => {
+    wrapper.find('button').first().simulate('click')
+    await act(async () => {
+      await new Promise((resolve) => setTimeout(resolve, 0))
+    })
+    wrapper.update()
+    expect(wrapper.find('form').length).toBe(1)
+    wrapper.find('button').at(1).simulate('click')
+    await act(async () => {
+      await new Promise((resolve) => setTimeout(resolve, 0))
+    })
+    wrapper.update()
+    expect(wrapper.find('ul').children().length).toBe(4)
+    expect(wrapper.find('li').children().length).toBe(27)
+    expect(wrapper.find('p').length).toBe(18)
+  })
+
   test('Send an Employee to inactive list', async () => {
     axios.delete.mockResolvedValueOnce({ data: { body: {} } })
     wrapper.find('li button').at(1).simulate('click')

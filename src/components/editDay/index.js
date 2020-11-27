@@ -5,7 +5,7 @@ import Cancel from '../../assets/cancel'
 
 const EditDay = ({ day, index, toggleEdit, handleSubmit }) => {
   return (
-    <ItemLi index={index} key={index} columns={8}>
+    <ItemLi index={index} columns={8}>
       <P>{day.day_date}</P>
       <Form onSubmit={(e) => handleSubmit(e, day.day_date)}>
         <Input type='time' min='07:00' max='19:00' defaultValue={day.day_start} />

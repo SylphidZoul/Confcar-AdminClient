@@ -10,5 +10,4 @@ export const detailedDayMock = {
   rawHours: 'PT28800S',
   week: 41,
   workedHours: '08:00'
-
 }

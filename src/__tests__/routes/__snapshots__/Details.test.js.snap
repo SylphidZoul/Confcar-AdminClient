@@ -1,75 +1,100 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Summaries Tests Validate Snapshot 1`] = `
-<Summaries>
-  <Summary
-    onChange={[Function]}
-    onChangeType={[Function]}
-    onClick={[Function]}
+exports[`Employees Tests Validate Snapshot 1`] = `
+<Details>
+  <DetailsScreen
+    onDelete={[Function]}
+    onSelectDate={[Function]}
+    onSelectEmployee={[Function]}
+    onSubmit={[Function]}
     state={
       Object {
-        "employeesData": Array [
+        "detailedDay": Object {},
+        "editMode": false,
+        "employeesList": Array [
           Object {
-            "detailedDays": Array [],
-            "fullname": "Raúl",
-            "rawHours": "PT23400S",
-            "weekHours": "06:30",
-            "weekNumber": 41,
-            "weekPay": 449,
+            "dni": 38098706,
+            "employee_id": 2,
+            "fullname": "Juan",
+            "hourly_pay": 110,
+            "mobile": 1164329741,
+            "password": "asd1234",
           },
           Object {
-            "detailedDays": Array [],
-            "fullname": "Agustina",
-            "rawHours": "PT234003",
-            "weekHours": "06:00",
-            "weekNumber": 41,
-            "weekPay": 50,
+            "dni": 17753281,
+            "employee_id": 16,
+            "fullname": "Carlos",
+            "hourly_pay": 104,
+            "mobile": 1164329741,
+            "password": "852123",
+          },
+          Object {
+            "dni": 37098750,
+            "employee_id": 54,
+            "fullname": "Mariano",
+            "hourly_pay": 78,
+            "mobile": 1164329700,
+            "password": "963741",
           },
         ],
+        "error": "",
         "isFetching": false,
-        "showCalendar": false,
-        "summaryType": "week",
-        "totalData": Object {
-          "hours": "12:30",
-          "pay": 499,
-          "weekNumber": 41,
-        },
-        "typeString": "Semana",
+        "selectedDate": null,
+        "selectedEmployee": null,
       }
     }
+    toggleEdit={[Function]}
   >
     <styled.h1>
       <h1
-        className="sc-dIsAE kajrpc"
+        className="sc-eCApGN iRyvWQ"
       >
-        Detalles de Semana
+        Detalles de días
       </h1>
     </styled.h1>
+    <styled.select
+      onChange={[Function]}
+    >
+      <select
+        className="sc-jSFkmK fiRBPF"
+        onChange={[Function]}
+      >
+        <option
+          defaultValue={null}
+        >
+          Selecciona un empleado
+        </option>
+        <option
+          key="0"
+          value={2}
+        >
+          Juan
+        </option>
+        <option
+          key="1"
+          value={16}
+        >
+          Carlos
+        </option>
+        <option
+          key="2"
+          value={54}
+        >
+          Mariano
+        </option>
+      </select>
+    </styled.select>
     <styled.div
-      show={false}
+      show={true}
     >
       <div
-        className="sc-iCoHVE bikNpR"
+        className="sc-bdnylx cqvkLy"
       >
-        <styled.button
-          onClick={[Function]}
-        >
+        <styled.button>
           <button
-            className="sc-fujyUd ebaOC"
-            onClick={[Function]}
+            className="sc-gtssRu boa-Dzv"
           >
-            Buscar otra fecha
-            <styled.img
-              alt="arrow"
-              show={false}
-              src="arrow.svg"
-            >
-              <img
-                alt="arrow"
-                className="sc-pNWxx ixckf"
-                src="arrow.svg"
-              />
-            </styled.img>
+            Selecciona una fecha
           </button>
         </styled.button>
         <Calendar
@@ -3647,214 +3672,6 @@ exports[`Summaries Tests Validate Snapshot 1`] = `
         </Calendar>
       </div>
     </styled.div>
-    <styled.div>
-      <div
-        className="sc-kEqYlL egFAtH"
-      >
-        <label>
-          Resumenes por:
-        </label>
-        <styled.select
-          onChange={[Function]}
-        >
-          <select
-            className="sc-iqAbSa jJHEtQ"
-            onChange={[Function]}
-          >
-            <option
-              value="week"
-            >
-              Semanas
-            </option>
-            <option
-              value="month"
-            >
-              Meses
-            </option>
-            <option
-              value="year"
-            >
-              Años
-            </option>
-          </select>
-        </styled.select>
-      </div>
-    </styled.div>
-    <styled.div>
-      <div
-        className="sc-kEqYlL egFAtH"
-      >
-        <styled.h2>
-          <h2
-            className="sc-jrsJCI iqIeTF"
-          >
-            Semana
-             
-            41
-          </h2>
-        </styled.h2>
-        <SummaryTable
-          data={
-            Object {
-              "hours": "12:30",
-              "pay": 499,
-              "weekNumber": 41,
-            }
-          }
-          details={
-            Array [
-              Object {
-                "detailedDays": Array [],
-                "fullname": "Raúl",
-                "rawHours": "PT23400S",
-                "weekHours": "06:30",
-                "weekNumber": 41,
-                "weekPay": 449,
-              },
-              Object {
-                "detailedDays": Array [],
-                "fullname": "Agustina",
-                "rawHours": "PT234003",
-                "weekHours": "06:00",
-                "weekNumber": 41,
-                "weekPay": 50,
-              },
-            ]
-          }
-          summaryType="Semana"
-        >
-          <styled.ul>
-            <ul
-              className="sc-bdnylx eTsEhl"
-            >
-              <styled.li
-                columns={3}
-              >
-                <li
-                  className="sc-gtssRu iABYXF"
-                >
-                  <styled.h3>
-                    <h3
-                      className="sc-hKFyIo etqfMD"
-                    >
-                      Nombre
-                    </h3>
-                  </styled.h3>
-                  <styled.h3>
-                    <h3
-                      className="sc-hKFyIo etqfMD"
-                    >
-                      Horas
-                    </h3>
-                  </styled.h3>
-                  <styled.h3>
-                    <h3
-                      className="sc-hKFyIo etqfMD"
-                    >
-                      Dinero
-                    </h3>
-                  </styled.h3>
-                </li>
-              </styled.li>
-              <Styled(styled.li)
-                columns={3}
-                index={0}
-                key="PT23400S0"
-              >
-                <li
-                  className="sc-gtssRu sc-dlnjPT iABYXF hcaTng"
-                >
-                  <styled.p>
-                    <p
-                      className="sc-eCApGN dDzstV"
-                    >
-                      Raúl
-                    </p>
-                  </styled.p>
-                  <styled.p>
-                    <p
-                      className="sc-eCApGN dDzstV"
-                    >
-                      06:30
-                    </p>
-                  </styled.p>
-                  <styled.p>
-                    <p
-                      className="sc-eCApGN dDzstV"
-                    >
-                      $
-                      449
-                    </p>
-                  </styled.p>
-                </li>
-              </Styled(styled.li)>
-              <Styled(styled.li)
-                columns={3}
-                index={1}
-                key="PT2340031"
-              >
-                <li
-                  className="sc-gtssRu sc-dlnjPT iABYXF iUxqhc"
-                >
-                  <styled.p>
-                    <p
-                      className="sc-eCApGN dDzstV"
-                    >
-                      Agustina
-                    </p>
-                  </styled.p>
-                  <styled.p>
-                    <p
-                      className="sc-eCApGN dDzstV"
-                    >
-                      06:00
-                    </p>
-                  </styled.p>
-                  <styled.p>
-                    <p
-                      className="sc-eCApGN dDzstV"
-                    >
-                      $
-                      50
-                    </p>
-                  </styled.p>
-                </li>
-              </Styled(styled.li)>
-              <styled.li
-                columns={3}
-              >
-                <li
-                  className="sc-gtssRu iABYXF"
-                >
-                  <styled.h3>
-                    <h3
-                      className="sc-hKFyIo etqfMD"
-                    >
-                      Total
-                    </h3>
-                  </styled.h3>
-                  <styled.h3>
-                    <h3
-                      className="sc-hKFyIo etqfMD"
-                    >
-                      12:30
-                    </h3>
-                  </styled.h3>
-                  <styled.h3>
-                    <h3
-                      className="sc-hKFyIo etqfMD"
-                    >
-                      $
-                      499
-                    </h3>
-                  </styled.h3>
-                </li>
-              </styled.li>
-            </ul>
-          </styled.ul>
-        </SummaryTable>
-      </div>
-    </styled.div>
-  </Summary>
-</Summaries>
+  </DetailsScreen>
+</Details>
 `;

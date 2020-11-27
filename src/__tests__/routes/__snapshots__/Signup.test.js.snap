@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Employees Tests Validate Snapshot 1`] = `
+<HashRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Signup>
+      <SignupScreen
+        errorMessage=""
+        isFetching={false}
+        onSubmit={[Function]}
+      >
+        <styled.div>
+          <div
+            className="sc-bdnylx eyedbV"
+          >
+            <BackButton
+              back="Empleados"
+            >
+              <styled.button
+                onClick={[Function]}
+              >
+                <button
+                  className="sc-pNWxx jEUbzj"
+                  onClick={[Function]}
+                >
+                  <styled.img
+                    alt="arrow-image"
+                    src="arrow.svg"
+                  >
+                    <img
+                      alt="arrow-image"
+                      className="sc-jrsJCI vRVpE"
+                      src="arrow.svg"
+                    />
+                  </styled.img>
+                  Volver a 
+                  Empleados
+                </button>
+              </styled.button>
+            </BackButton>
+            <styled.h1>
+              <h1
+                className="sc-gtssRu eTNwlm"
+              >
+                Registrar empleados
+              </h1>
+            </styled.h1>
+            <styled.form
+              onSubmit={[Function]}
+            >
+              <form
+                className="sc-dlnjPT eTAuCH"
+                onSubmit={[Function]}
+              >
+                <styled.div>
+                  <div
+                    className="sc-jSFkmK hojLfW"
+                  >
+                    <styled.img
+                      alt="profile-icon"
+                      src="profile.png"
+                    >
+                      <img
+                        alt="profile-icon"
+                        className="sc-gKAblj fbuNLX"
+                        src="profile.png"
+                      />
+                    </styled.img>
+                  </div>
+                </styled.div>
+                <styled.label
+                  htmlFor="name"
+                >
+                  <label
+                    className="sc-hKFyIo hSCLnj"
+                    htmlFor="name"
+                  >
+                    Nombre
+                  </label>
+                </styled.label>
+                <styled.input
+                  name="name"
+                  type="text"
+                >
+                  <input
+                    className="sc-eCApGN llnnzY"
+                    name="name"
+                    type="text"
+                  />
+                </styled.input>
+                <styled.label
+                  htmlFor="dni"
+                >
+                  <label
+                    className="sc-hKFyIo hSCLnj"
+                    htmlFor="dni"
+                  >
+                    D.N.I.
+                  </label>
+                </styled.label>
+                <styled.input
+                  max={99999999}
+                  min={1}
+                  name="dni"
+                  type="number"
+                >
+                  <input
+                    className="sc-eCApGN llnnzY"
+                    max={99999999}
+                    min={1}
+                    name="dni"
+                    type="number"
+                  />
+                </styled.input>
+                <styled.label
+                  htmlFor="password"
+                >
+                  <label
+                    className="sc-hKFyIo hSCLnj"
+                    htmlFor="password"
+                  >
+                    Contraseña
+                  </label>
+                </styled.label>
+                <styled.input
+                  name="password"
+                  type="text"
+                >
+                  <input
+                    className="sc-eCApGN llnnzY"
+                    name="password"
+                    type="text"
+                  />
+                </styled.input>
+                <styled.label
+                  htmlFor="phone"
+                >
+                  <label
+                    className="sc-hKFyIo hSCLnj"
+                    htmlFor="phone"
+                  >
+                    Teléfono
+                  </label>
+                </styled.label>
+                <styled.input
+                  max={9999999999}
+                  min={1}
+                  name="phone"
+                  type="number"
+                >
+                  <input
+                    className="sc-eCApGN llnnzY"
+                    max={9999999999}
+                    min={1}
+                    name="phone"
+                    type="number"
+                  />
+                </styled.input>
+                <styled.label
+                  htmlFor="price"
+                  price={true}
+                >
+                  <label
+                    className="sc-hKFyIo jkwmKX"
+                    htmlFor="price"
+                  >
+                    Pago/Hora
+                  </label>
+                </styled.label>
+                <styled.input
+                  name="price"
+                  type="number"
+                >
+                  <input
+                    className="sc-eCApGN llnnzY"
+                    name="price"
+                    type="number"
+                  />
+                </styled.input>
+                <styled.button>
+                  <button
+                    className="sc-iCoHVE kxCzDn"
+                  >
+                    Registrar
+                  </button>
+                </styled.button>
+              </form>
+            </styled.form>
+          </div>
+        </styled.div>
+      </SignupScreen>
+    </Signup>
+  </Router>
+</HashRouter>
+`;

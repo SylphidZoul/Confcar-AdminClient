@@ -10,7 +10,7 @@ const DetailsScreen = ({ state, onSelectEmployee, onSelectDate, onSubmit, onDele
   return (
     <>
       <ScreenTitle>
-        {isFetching ? 'Cargando' : 'Detalles de días'}
+        {isFetching ? 'Cargando...' : 'Detalles de días'}
       </ScreenTitle>
       <Select
         onChange={onSelectEmployee}
@@ -47,6 +47,7 @@ const DetailsScreen = ({ state, onSelectEmployee, onSelectDate, onSubmit, onDele
                   index={index}
                   toggleEdit={toggleEdit}
                   handleSubmit={onSubmit}
+                  key={index}
                 />
               )}
             />
