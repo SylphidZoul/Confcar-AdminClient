@@ -8,4 +8,5 @@
 
 # production
 /build
+/dist
 

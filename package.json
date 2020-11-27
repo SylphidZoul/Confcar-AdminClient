@@ -1,8 +1,10 @@
 {
   "name": "confcar-admin",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "public/electron.js",
   "private": true,
+  "homepage": "./",
+  "author": "Juan Cruz Cardozo",
   "dependencies": {
     "axios": "^0.21.0",
     "react": "^17.0.1",
@@ -10,12 +12,15 @@
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.2.0",
+    "electron-is-dev": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --setupFiles ./src/setupTests.js",
+    "preelectron-pack": "npm run build",
+    "electron-pack": "electron-builder -c.extraMetadata.main=build/electron.js",
     "electron-dev": "concurrently \"BROWSER=none npm start\" \"wait-on http://localhost:3000 && electron .\""
   },
   "eslintConfig": {
@@ -28,6 +33,34 @@
       "/public/**"
     ]
   },
+  "build": {
+    "appId": "Confcar-Admin",
+    "linux": {
+      "target": ["tar.gz"],
+      "executableName": "Confcar Horarios",
+      "icon": "./deb.png"
+    },
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    }
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.3.1",
+    "concurrently": "^5.3.0",
+    "electron": "^10.1.5",
+    "electron-builder": "^22.9.1",
+    "enzyme": "^3.11.0",
+    "enzyme-to-json": "^3.6.1",
+    "standard": "^16.0.0",
+    "wait-on": "^5.2.0"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -39,19 +72,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "@wojtekmaj/enzyme-adapter-react-17": "^0.3.1",
-    "concurrently": "^5.3.0",
-    "electron": "^10.1.5",
-    "electron-builder": "^22.9.1",
-    "electron-is-dev": "^1.2.0",
-    "enzyme": "^3.11.0",
-    "enzyme-to-json": "^3.6.1",
-    "standard": "^16.0.0",
-    "wait-on": "^5.2.0"
   }
 }

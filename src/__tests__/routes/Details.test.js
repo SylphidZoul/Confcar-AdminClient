@@ -47,6 +47,17 @@ describe('Employees Tests', () => {
     expect(wrapper.find('p').first().text()).toBe('10/8/2020')
   })
 
+  test('Day not found', async () => {
+    axios.get.mockRejectedValueOnce({ response: { data: { body: 'No se ha encontrado esa fecha.' } } })
+    wrapper.find('select').simulate('change', { target: { value: '2' } })
+    wrapper.find('.react-calendar__month-view__days').children().at(14).simulate('click')
+    await act(async () => {
+      await new Promise((resolve) => setTimeout(resolve, 0))
+    })
+    wrapper.update()
+    expect(wrapper.find('p').text()).toBe('No se ha encontrado esa fecha.')
+  })
+
   test('Edit a day and cancel', async () => {
     axios.get.mockResolvedValueOnce({ data: { body: detailedDayMock } })
     wrapper.find('select').simulate('change', { target: { value: '2' } })
