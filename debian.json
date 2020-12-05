@@ -1,0 +1,13 @@
+{
+  "dest": "release-builds/",
+  "icon": "buildResources/icon.ico",
+  "categories": [
+    "Office"
+  ],
+  "productName": "Confcar Horarios",
+  "version": "1.0.0",
+  "description": "Confcar Admin App",
+  "lintianOverrides": [
+    "changelog-file-missing-in-native-package"
+  ]
+}

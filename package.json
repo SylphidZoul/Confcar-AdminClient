@@ -19,8 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --setupFiles ./src/setupTests.js",
-    "preelectron-pack": "npm run build",
-    "electron-pack": "electron-builder -c.extraMetadata.main=build/electron.js",
+    "package-linux": "electron-packager .  confcar-admin --overwrite --asar=true --platform=linux --arch=x64 --icon=buildResources/icon.ico --prune=true --out=release-builds",
+    "create-installer-debian": "electron-installer-debian --src release-builds/confcar-admin-linux-x64/ --arch amd64 --config debian.json",
     "electron-dev": "concurrently \"BROWSER=none npm start\" \"wait-on http://localhost:3000 && electron .\""
   },
   "eslintConfig": {
@@ -33,21 +33,6 @@
       "/public/**"
     ]
   },
-  "build": {
-    "appId": "Confcar-Admin",
-    "linux": {
-      "target": ["tar.gz"],
-      "executableName": "Confcar Horarios",
-      "icon": "./deb.png"
-    },
-    "files": [
-      "build/**/*",
-      "node_modules/**/*"
-    ],
-    "directories": {
-      "buildResources": "assets"
-    }
-  },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -55,7 +40,7 @@
     "@wojtekmaj/enzyme-adapter-react-17": "^0.3.1",
     "concurrently": "^5.3.0",
     "electron": "^10.1.5",
-    "electron-builder": "^22.9.1",
+    "electron-packager": "^15.2.0",
     "enzyme": "^3.11.0",
     "enzyme-to-json": "^3.6.1",
     "standard": "^16.0.0",
