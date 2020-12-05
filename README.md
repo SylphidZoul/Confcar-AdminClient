@@ -28,7 +28,7 @@ _Work in Progress_
 * [concurrently](https://www.npmjs.com/package/concurrently)
 * [wait-on](https://www.npmjs.com/package/wait-on)
 * [electron](https://www.electronjs.org/)
-* [electron-builder](https://www.npmjs.com/package/electron-builder)
+* [electron-packager](https://github.com/electron/electron-packager)
 * [electron-is-dev](https://www.npmjs.com/package/electron-is-dev)
 * [axios](https://www.npmjs.com/package/axios)
 * [react-calendar](https://www.npmjs.com/package/react-calendar)
